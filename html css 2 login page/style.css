@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0%;
+}
+
+body{
+  background-image: url(bg1-png.png);
+  background-size: 100vw 100vh;
+}
+
+.login{
+  width: 500px;
+  height: 400px;
+  background-color: rgba(240, 248, 255, 0.158);
+  margin: auto;
+  margin-top: 150px;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px black;
+}
+.login h3{
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: black;
+  font-family:'poppin', sans-serif;
+  font-size: 25px;
+}
+
+.log{
+  position: relative;
+  top: 120px;
+  left: 20px;
+}
+.log h4{
+  color: rgba(0, 0, 0, 0.747);
+  font-family:'poppin', sans-serif;
+  font-size: 20px;
+  
+}
+.log input{
+  padding-right: 220px;
+  background: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 0px;
+  cursor: pointer;
+}
+
+.log input:hover{
+  height: 20px;
+  transition: height 0.5s;
+
+}
+.log p{
+    color: rgba(0, 0, 0, 0.747);
+  font-family:'poppin', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.log p:hover{
+  color: rgba(0, 0, 0, 0.616);
+
+}
+.log button{
+  margin-top: 20px;
+  padding: 5px 20px;
+  font-size: 15px;
+  background: none;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.747);
+}
+
+.log button:hover{
+  background-color: rgba(245, 245, 245, 0.712);
+  transition: background-color 1s;
+  color: rgba(0, 0, 0, 0.616);
+  cursor: pointer;
+}
